@@ -1,0 +1,31 @@
+@startuml
+class Owner {
+  - org: String
+  - user : String
+}
+
+class Basil{
+ - qr: String
+ - extraInfo: String
+}
+
+class BasilLeg {
+ - timestamp: long
+ -gpsPosition: String
+
+}
+
+
+class BasilContract{
+- genson: Genson
++ CreateTracking(qr: String, basil: Basil): String
++ StopTracking(qr: String): String
++ UpdateTrackjng(qr: String, newBasilStatus: BasilLeg): String
++ GetActuaITracking(qr: String): Basil
++ GetHistory(qr: String): String
++ TransferTracking(qr: String, newOwner: Owner): String
+
+}
+
+Owner <.. "1" Basil : -owner
+Basil <.. "1" BasilLeg : -basil
