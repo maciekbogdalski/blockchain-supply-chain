@@ -8,7 +8,7 @@ import QueryHistoryComponent from './components/QueryHistoryComponent';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/blockchain-supply-chain/react-plant-tracking-app">
       <div>
         <h1>Plant Tracking System</h1>
         <nav>
