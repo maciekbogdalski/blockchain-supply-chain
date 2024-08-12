@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/blockchain-supply-chain/react-plant-tracking-app/static/css/main.d221dc40.css",
+    "main.js": "/blockchain-supply-chain/react-plant-tracking-app/static/js/main.57aac2ac.js",
+    "index.html": "/blockchain-supply-chain/react-plant-tracking-app/index.html",
+    "main.d221dc40.css.map": "/blockchain-supply-chain/react-plant-tracking-app/static/css/main.d221dc40.css.map",
+    "main.57aac2ac.js.map": "/blockchain-supply-chain/react-plant-tracking-app/static/js/main.57aac2ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d221dc40.css",
+    "static/js/main.57aac2ac.js"
+  ]
+}
